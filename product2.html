@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pure Art By Zachary White</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+
+<!-- main css -->
+    <link rel="stylesheet" href="css\main.css">
+
+<!-- font awesome js -->
+<script src="js\all.js" charset="utf-8"></script>
+
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+
+  </head>
+
+<!-- ns1.eco-dns.co.uk and ns2.eco-dns.co.uk. -->
+  <body class="pt-5">
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="index.html">Pure Art</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto ">
+      <li class="nav-item active px-5">
+        <a class="nav-link" href="index.html#artist">The Artist <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item px-5">
+        <a class="nav-link" href="index.html#port">Portfolio</a>
+      </li>
+      <li class="nav-item px-5">
+        <a class="nav-link" href="index.html#contact">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- end nav bar -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 pt-5 pb-5 " id="img-cont">
+      <img src="img\card2.jpg" alt="" class="mx-auto d-block img-responsive "id="prod-img">
+
+    </div>
+    <div class="col-lg-12 pt-5 prod-info text-center">
+       <h1 class="text-capitalize">project name</h1>
+       <h4 class="text-capitalize pt-3">about project</h4>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dolorum eligendi tenetur mollitia fugiat cum blanditiis, quod soluta quae obcaecati molestias nemo a, vel officiis?</p>
+     </div>
+  </div>
+</div>
+
+
+<!-- Contact Us Section -->
+    <section class="Material-contact-section section-padding section-dark">
+      <div class="container">
+          <div class="row">
+              <!-- Section Titile -->
+              <div class="col-md-12 wow animated fadeInLeft text-center pt-5" data-wow-delay=".2s">
+                  <h1 class="section-title">Want more info about this item?</h1>
+              </div>
+          </div>
+          <div class="row">
+              <!-- Section Titile -->
+              <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt debitis dolorum ullam voluptatem illum, harum, delectus minima nihil praesentium nemo error et maxime porro atque illo doloremque magnam vero quibusdam magni veritatis. Temporibus, odio, possimus.</p>
+
+                <div class="find-widget">
+                 Artist:  Artist Name
+                </div>
+                <div class="find-widget">
+                 Address: <a href="#">Artist Address</a>
+                </div>
+                <div class="find-widget">
+                  Phone:  <a href="#">+ Artist Phone</a>
+                </div>
+              </div>
+              <!-- contact form -->
+              <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                  <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                      <!-- Name -->
+                      <div class="form-group label-floating">
+                        <label class="control-label" for="name">Name</label>
+                        <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- email -->
+                      <div class="form-group label-floating">
+                        <label class="control-label" for="email">Email</label>
+                        <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- Subject -->
+                      <div class="form-group label-floating">
+                        <label class="control-label">Subject</label>
+                        <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- Message -->
+                      <div class="form-group label-floating">
+                          <label for="message" class="control-label">Message</label>
+                          <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                      <!-- Form Submit -->
+                      <div class="form-submit mt-5">
+                          <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                          <div id="msgSubmit" class="h3 text-center hidden"></div>
+                          <div class="clearfix"></div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- jquery -->
+  <script src="js\jquery-3.4.1.min.js" charset="utf-8"></script>
+
+  <!-- bootstrap -->
+  <script src="js\bootstrap.bundle.min.js" charset="utf-8"></script>
+
+  <!-- js -->
+  <script src="js\index.js" charset="utf-8"></script>
+
+  </body>
+</html>
